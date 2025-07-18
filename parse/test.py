@@ -14,3 +14,6 @@ req = requests.get("https://hh.ru/search/vacancy", headers)
 src = req.text
 print(src)
 print(req.url)
+
+def get_areas():
+    return 
